@@ -1,0 +1,26 @@
+#navbar-wrapper {
+    background-color: #e60012;
+}
+
+.Nintendo-navbar {
+    background-color: #e60012;
+}
+
+#sidebar-wrapper {
+    display: grid;
+    width: 88px;
+    background: #bf0010;
+}
+
+.Nintendo1, .Nintendo2, .Nintendo3, .Nintendo4, .Nintendo5, .Nintendo6, .Nintendo7, .Nintendo8 {
+    height: 88px;
+    width: 88px;
+    background-color: #e60012;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #bf0010;
+}
+
+.Nintendo1:hover, .Nintendo2:hover, .Nintendo3:hover, .Nintendo4:hover, .Nintendo5:hover, .Nintendo6:hover, .Nintendo7:hover, .Nintendo8:hover {
+    background-color: #bf0010;
+}
