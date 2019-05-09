@@ -4,6 +4,10 @@
 
 .Nintendo-navbar {
     background-color: #e60012;
+    padding: 20px 19px 19px 25px;
+    margin: 0px -5px;
+    height: 72px;
+    display: block;
 }
 
 #sidebar-wrapper {
@@ -12,7 +16,12 @@
     background: #bf0010;
 }
 
-.Nintendo1, .Nintendo2, .Nintendo3, .Nintendo4, .Nintendo5, .Nintendo6, .Nintendo7, .Nintendo8 {
+.Nintendo1 {
+    position: relative;
+    display: inline-block;
+}
+
+.switchBtn, .laboBtn, .dsBtn, .amiiboBtn, .storeBtn, .newsBtn, .socialBtn, .miscBtn {
     height: 88px;
     width: 88px;
     background-color: #e60012;
@@ -21,6 +30,34 @@
     border: 1px solid #bf0010;
 }
 
-.Nintendo1:hover, .Nintendo2:hover, .Nintendo3:hover, .Nintendo4:hover, .Nintendo5:hover, .Nintendo6:hover, .Nintendo7:hover, .Nintendo8:hover {
+.switchBtn:hover, .switchBtn:focus, .laboBtn:hover, .laboBtn:focus, .dsBtn:hover, .dsBtn:focus, .amiiboBtn:hover, .amiiboBtn:focus, .storeBtn:hover, .storeBtn:focus, .newsBtn:hover, .newsBtn:focus, .socialBtn:hover, .socialBtn:focus, .miscBtn:hover, .miscBtn:focus {
     background-color: #bf0010;
+}
+
+.switchMenu {
+    display: none;
+    position: relative;
+    width: 329px;
+    background: #FFFFFF;
+    color: black;
+}
+
+.switchMenu ul {
+    list-style: none;
+}
+
+.switchMenu li {
+    position: relative;
+}
+
+.switchMenu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #FFFFFF;
+}
+
+.switchMenu li:hover > ul {
+    left: 100%;
+    visibility: visible;
 }
