@@ -12,7 +12,7 @@
 
 #sidebar-wrapper {
     display: grid;
-    width: 88px;
+    width: 92px;
     background: #bf0010;
 }
 
@@ -21,13 +21,39 @@
     display: inline-block;
 }
 
-.switchBtn, .laboBtn, .dsBtn, .amiiboBtn, .storeBtn, .newsBtn, .socialBtn, .miscBtn {
+.dropdownSwitch, .dropdownLabo, .dropdownDS, .dropdownAmiibo, .dropdownStore, .dropdownNews, .dropdownSocial, .dropdownMisc {
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+.switchBtn, .laboBtn, .dsBtn, .amiiboBtn, .storeBtn, .newsBtn {
     height: 88px;
     width: 88px;
     background-color: #e60012;
     color: #fff;
     cursor: pointer;
-    border: 1px solid #bf0010;
+    border: none;
+}
+
+.socialBtn {
+    background-color: #e60012;
+    width: 88px;
+    height: 56px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 12px;
+    border: none;
+}
+
+.miscBtn {
+    background-color: #e60012;
+    width: 88px;
+    height: 45px;
+    padding: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    border: none;
 }
 
 .switchBtn:hover, .switchBtn:focus, .laboBtn:hover, .laboBtn:focus, .dsBtn:hover, .dsBtn:focus, .amiiboBtn:hover, .amiiboBtn:focus, .storeBtn:hover, .storeBtn:focus, .newsBtn:hover, .newsBtn:focus, .socialBtn:hover, .socialBtn:focus, .miscBtn:hover, .miscBtn:focus {
@@ -60,4 +86,54 @@
 .switchMenu li:hover > ul {
     left: 100%;
     visibility: visible;
+}
+
+.navTop {
+    color: #ffffff;
+    padding: 8px;
+    font-size: 12px;
+    background: #ffffff;
+    height: 28px;
+    width: 28px;
+    margin: auto;
+}
+
+.content-wrapper {
+    background-color: #f4f4f4;
+}
+
+.content-container {
+
+}
+
+.news-section {
+    position: relative;
+    color: #666666;
+    background: #FFFFFF;
+    margin-bottom: 4px;
+    padding: 12px;
+    width: 791px;
+    height: 65px;
+}
+
+.news-section-container {
+    border-left: #f4f4f4;
+    height: 100%;
+    padding: 8px;
+}
+
+.news-section-title {
+    font-size: 22px;
+    color: #333;
+}
+
+.GroupList {
+    position: relative;
+    border: none;
+    color: #666666;
+    background: #FFFFFF;
+    padding: 8px 0px;
+    font-size: 14px;
+    height: 207px;
+    width: 393.5px;
 }
