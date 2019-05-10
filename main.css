@@ -137,3 +137,8 @@
     height: 207px;
     width: 393.5px;
 }
+
+#cardtext {
+    color: #666666;
+    font-size: 10px;
+}
